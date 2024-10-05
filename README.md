@@ -25,27 +25,3 @@ persist:init_db(pgdb).
 ## To use
 Url for API http://localhost:8080
 
-content-type: application/json
-```
-GET /
-Hello message
-
-POST /register
-Register new user
-json body: {
-  "email":"Anakin@darkside.com",
-  "pass":"123456",
-  "fname": "Dart",
-  "lname": "Vader"
-}
-
-GET /register?token=EX9dNvZebWsKDwGlnUS06DajIwJMhjqCB1hkNvwnEtVHqehqoPvz7E8ULz1qhwTP
-Complete registration
-
-POST /login
-Login
-json body: {"email": "email@email.com", "pass": "123456"} 
-
-POST /logout
-Logout
-```
